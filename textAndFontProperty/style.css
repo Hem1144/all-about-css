@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+p {
+  text-align: center;
+}
+
+h1 {
+  text-decoration: underline blue;
+  /* text-decoration-style: wavy;
+  text-decoration-color: aqua;
+  color: transparent; */
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 3px 3px 1px red, 3px 3px 4px blue;
+  font-family: "Agbalumo", system-ui;
+}
