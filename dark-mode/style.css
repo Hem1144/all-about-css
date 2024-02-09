@@ -6,14 +6,16 @@
 
 .container {
   padding: 40px;
+  --my-var: red;
 }
 
 h1 {
   text-align: center;
+  background-color: var(--my-var);
 }
 
 .box {
-  --my-var: red;
+  --my-var: yellow;
   padding: 20px;
   background-color: var(--my-var);
 }
