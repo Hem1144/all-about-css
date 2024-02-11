@@ -50,6 +50,6 @@ p {
 
 @media screen and (min-width: 800px) {
   .container {
-    /* --my-var: pink; */
+    --my-var: pink;
   }
 }
