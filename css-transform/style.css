@@ -1,0 +1,23 @@
+.container {
+  width: 400px;
+  height: 400px;
+  background-color: steelblue;
+  margin: 80px auto;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: tomato;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* transform: scaleZ(2);
+  transform: skew(20deg, 30deg);
+  transform: translate(50%, 50%);
+  transform: rotate(20deg, 108deg); */
+
+  /*! to apply transform property at once */
+  transform: rotate(45deg) scale(1.2) skew(30deg) translate(45px);
+}
